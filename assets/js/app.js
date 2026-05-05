@@ -117,7 +117,7 @@ card.innerHTML = CARDS_DATA.map((item) => {
           <h1 class="max-w-[150px] mx-auto font-normal text-2xl leading-[115%] items-center text-center text-[#3586FF] pb-2">${item.heading}</h1>
           <div class="max-w-[213px] font-normal text-sm leading-[135%] text-center text-[#D4E5FF] pb-2">${item.para}</div>
           <div class="max-w-[202px] font-normal text-sm leadinf-[100%] text-center text-[#D4E5FF] pb-2">${item.content}</div>
-          <span class="flex items-center justify-center">
+          <a target="_blank" href="https://x.com/?lang=en-in" class="flex items-center justify-center">
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <rect width="20" height="20" fill="url(#pattern0_0_149)"/>
             <defs>
@@ -128,7 +128,7 @@ card.innerHTML = CARDS_DATA.map((item) => {
             </defs>
           </svg>
 
-          </span>
+          </a>
         </div>
       </div>
       
